@@ -5,11 +5,13 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Project (props) {
   return (
-    <div className="project-item" style={props.style}>
-      <a href={props.liveUrl}>{props.name}</a>
-      <a href={props.gitUrl}>
-      <FontAwesomeIcon icon={faGithub} size="2x" />
-      </a>
+    <div className="grid-item" style={props.style}>
+      <div className="project-info">
+        <a href={props.liveUrl} className="project-title">{props.name}</a>
+        <a href={props.gitUrl}>
+          <FontAwesomeIcon icon={faGithub} size="2x" />
+        </a>
+      </div>
     </div>
   )
 }

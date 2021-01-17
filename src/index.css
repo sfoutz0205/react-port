@@ -1,13 +1,136 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary-color: rgb(66, 66, 66);
+  --secondary-color: rgb(107, 172, 192);
 }
+
+body {
+  background-color: white;
+  color: var(--primary-color);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3.2vw;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2.4vw;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color:#FFE4C4;
+}
+
+/*-- Header --*/
+header {
+  background-color: #DEB887;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+header .header-name a {
+  color: white;
+  text-align: right;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+  margin: 20px 0;
+  padding: 0 10px 0 30px;
+  border-radius: 0 15px 15px 0;
+  text-decoration: none;
+}
+
+nav {
+  padding-right: 100px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 30px;
+  font-weight: lighter;
+  font-size: 1.4vw;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid;
+  cursor: pointer;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.section-title {
+  font-size: 3vw;
+  color: #DEB887;
+}
+
+
+#project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+  margin: 40px;
+}
+
+#project-grid div {
+  border: solid 1px #DEB887;
+  padding: 2px;
+  display: flex;
+}
+
+/* Need to refer to work-label in this path or the block layout for the headers reverts to flex/inline */
+#project-grid div .project-info {
+  background-color: #DEB887;
+  width: 120px;
+  margin: 0 0 0px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 30px;
+}
+
+.grid-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 98% 98%;
+  opacity: .8;
+  height: 19.5vw;
+}
+
+
+
+
+
+
+
+

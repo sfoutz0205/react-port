@@ -4,7 +4,7 @@ import Nav from '../Nav';
 function Header () {
   return (
     <header>
-      <h2>
+      <h2 class="header-name">
         <a href="/">
           Sophie Foutz
         </a>

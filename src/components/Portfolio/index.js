@@ -57,7 +57,7 @@ function Portfolio () {
       }
     },
     {
-      id: 1,
+      id: 6,
       name: 'Recipe Finder',
       liveUrl: 'https://sfoutz0205.github.io/Recipe-Finder/',
       gitUrl: 'https://github.com/sfoutz0205/Recipe-Finder',
