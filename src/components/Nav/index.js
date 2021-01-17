@@ -2,12 +2,6 @@ import React from 'react';
 
 function Nav () {
   return (
-    <header>
-      <h2>
-        <a href="/">
-          Sophie Foutz
-        </a>
-      </h2>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
@@ -32,7 +26,6 @@ function Nav () {
           </li>
         </ul>
       </nav>
-    </header>
   );
 }
 
