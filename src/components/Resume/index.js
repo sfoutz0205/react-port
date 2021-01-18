@@ -7,11 +7,11 @@ function Resume () {
       <div className="page-container">
         <div className="page-content">
         <div className="section-title">
-          <h2>Resume</h2>
+          <h2>Proficiencies</h2>
         </div>
         <div className="page-text">
 
-          <h3>Front-End Skills</h3>
+          <h3 className="resume-title">Front-End Skills</h3>
             <p>
               <li>HTML</li>
               <li>CSS</li>
@@ -21,18 +21,18 @@ function Resume () {
               <li>Bootstrap</li>
             </p>
 
-            <h3>Back-End Skills</h3>
-              <p>
-                <li>APIs</li>
-                <li>Node</li>
-                <li>Express</li>
-                <li>MySQL, Sequelize</li>
-                <li>MongoDB, Mongoose</li>
-                <li>REST</li>
-                <li>GraphQL</li>
-              </p>
-              <p>
-                <a href={resumeDwnld} download="resume.pdf" target="_blank" rel="noreferrer">Download resume</a>
+          <h3 className="resume-title">Back-End Skills</h3>
+            <p>
+              <li>APIs</li>
+              <li>Node</li>
+              <li>Express</li>
+              <li>MySQL, Sequelize</li>
+              <li>MongoDB, Mongoose</li>
+              <li>REST</li>
+              <li>GraphQL</li>
+            </p>
+              <p className="resume-title">
+                <a href={resumeDwnld} download="resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
               </p>
           </div>
         </div>

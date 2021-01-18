@@ -17,6 +17,7 @@ body {
 }
 
 #wrapper {
+  font-family: 'Covered By Your Grace';
   min-height: 100vh; /* will cover the 100% of viewport */
   overflow: hidden;
   display: block;
@@ -49,7 +50,7 @@ a:hover {
 }
 
 header .header-name a {
-  /* font-family: 'Italianno'; */
+  font-family: 'Covered By Your Grace';
   font-size: 5vw;
   color: white;
   text-align: right;
@@ -97,18 +98,35 @@ nav ul li a {
   padding-bottom: 20px;
 }
 
-
-#project-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2vw;
-  margin: 40px;
+#about-text {
+  font-size: 30px;
 }
+
+#about-header {
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: 100px;
+}
+
+/* Projects Page Styles */
 
 #project-grid div {
   border: solid 1px #DEB887;
   padding: 2px;
   display: flex;
+}
+
+#project-container {
+  margin: 40px;
+}
+
+#project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+  padding: 40px 0;
 }
 
 #project-grid div .project-info {
@@ -118,6 +136,11 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+#project-header {
+  background-color:  rgba(255, 204, 153, .7);
+  padding: 20px;
 }
 
 .project-title {
@@ -138,16 +161,28 @@ input, textarea {
   margin: 10px 0;
 }
 
-label {
-  font-size: 20px;
+label, .error-text {
+  font-size: 30px;
 }
 
 .btn {
   font-size: 30px;
   padding: 10px;
+  margin-top: 10px;
   background-color: white;
   color: #DEB887;
   border-radius: 5px;
+}
+
+.resume-title {
+  font-size: 25px;
+  text-decoration: underline;
+  padding: 20px 0;
+}
+
+#resume p, li {
+  padding: 5px;
+  font-size: 18px;
 }
 
 footer {
