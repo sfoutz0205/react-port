@@ -1,7 +1,7 @@
 # MY PROFESSIONAL PORTFOLIO 
 
 ## Purpose
-A website that gives information about me and allows potential employers to view my projects, resume, and contact me directly. 
+A website that gives information about me and allows potential employers to view my projects, resume, and contact me directly. Each project listed includes a link to the live deployed application as well as a link to the github repository. Links to my Twitter, LinkedIn, and Github profiles are also available in the footer. 
 
 ## Creation
 This project was bootstrapped with Create React App.
