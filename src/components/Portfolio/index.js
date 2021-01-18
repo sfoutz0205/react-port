@@ -70,8 +70,8 @@ function Portfolio () {
 
   return (
     <section id="project-container">
-      <div>
-        <h2 className="section-title" id="project-header">My Projects</h2>
+      <div className="section-title">
+        <h2 id="project-header">My Projects</h2>
       </div>
       <div id="project-grid">
         {projects.map(project => (
