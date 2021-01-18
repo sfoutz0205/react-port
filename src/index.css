@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Italianno');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,21 +8,21 @@
 
 body {
   background-image: url('./assets/images/background-img.jpg');
-  background-repeat: no-repeat;
   background-size: 100%;
   color: white;
   font-family: Helvetica, Arial, sans-serif;
+  height: 100%;
+  position: relative;
+
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 3.2vw;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 2.4vw;
-}
+#wrapper {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+ }
 
 a {
   text-decoration: none;
@@ -47,15 +49,13 @@ a:hover {
 }
 
 header .header-name a {
+  /* font-family: 'Italianno'; */
   font-size: 5vw;
   color: white;
   text-align: right;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   position: relative;
-  margin: 20px 0;
   padding: 0 10px 0 30px;
-  border-radius: 0 15px 15px 0;
-  text-decoration: none;
 }
 
 nav {
@@ -83,14 +83,18 @@ nav ul li a {
   cursor: pointer;
 }
 
-footer ul li a {
-  text-decoration: none;
-  color: var(--secondary-color);
+.page-container {
+  margin: 80px auto;
+  width: 70%;
+  background-color: rgba(255, 204, 153, .8);
+  padding: 40px;
 }
 
 .section-title {
-  font-size: 3vw;
+  font-family: 'Covered By Your Grace';
+  font-size: 40px;
   color: white;
+  padding-bottom: 20px;
 }
 
 
@@ -128,18 +132,37 @@ footer ul li a {
   height: 19.5vw;
 }
 
-#contact-container {
-  margin: 0 auto;
-  width: 50%;
-  background-color: rgba(255, 204, 153, .8);
+input, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+}
+
+label {
+  font-size: 20px;
+}
+
+.btn {
+  font-size: 30px;
+  padding: 10px;
+  background-color: white;
+  color: #DEB887;
+  border-radius: 5px;
 }
 
 footer {
   background-color: rgba(255, 204, 153, .8);
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+  background-color: rgba(255, 204, 153, .8);
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px; 
 }
 
 footer ul {

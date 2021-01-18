@@ -15,7 +15,7 @@ import Resume from './components/Resume';
 function App() { 
   return (
     <BrowserRouter>
-    <div>
+    <div id="wrapper">
       <Header></Header>
      <Switch>
             <Route exact={true} path="/" component={About} />
