@@ -53,7 +53,7 @@ function Portfolio () {
       liveUrl: 'https://desolate-inlet-16467.herokuapp.com/',
       gitUrl: 'https://github.com/sfoutz0205/holiday-planner',
       style: {
-        backgroundImage: "url( " + img5 + ")"
+        backgroundImage: "url( " + img5 + ")",
       }
     },
     {

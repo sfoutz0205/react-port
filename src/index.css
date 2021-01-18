@@ -4,14 +4,9 @@
   box-sizing: border-box;
 }
 
-:root {
-  --primary-color: rgb(66, 66, 66);
-  --secondary-color: rgb(107, 172, 192);
-}
-
 body {
-  background-color: white;
-  color: var(--primary-color);
+  background-image: url('./assets/images/background-img.jpg');
+  color: white;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -35,8 +30,8 @@ a:hover {
 }
 
 /*-- Header --*/
-header {
-  background-color: #DEB887;
+#header {
+  background-color: rgba(255, 204, 153, .8);
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -45,7 +40,12 @@ header {
   height: 150px;
 }
 
+.header {
+  opacity: .8;
+}
+
 header .header-name a {
+  font-size: 5vw;
   color: white;
   text-align: right;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
@@ -88,7 +88,7 @@ footer ul li a {
 
 .section-title {
   font-size: 3vw;
-  color: #DEB887;
+  color: white;
 }
 
 
@@ -105,9 +105,8 @@ footer ul li a {
   display: flex;
 }
 
-/* Need to refer to work-label in this path or the block layout for the headers reverts to flex/inline */
 #project-grid div .project-info {
-  background-color: #DEB887;
+  background-color:  rgba(255, 204, 153, .7);
   width: 120px;
   margin: 0 0 0px 0;
   display: flex;
@@ -123,8 +122,14 @@ footer ul li a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 98% 98%;
-  opacity: .8;
+  /* opacity: .8; */
   height: 19.5vw;
+}
+
+#contact-container {
+  margin: 0 auto;
+  width: 50%;
+  background-color: rgba(255, 204, 153, .8);
 }
 
 
