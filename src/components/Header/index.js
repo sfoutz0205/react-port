@@ -5,7 +5,7 @@ function Header () {
   return (
     <header>
       <div id="header">
-      <h2 class="header-name">
+      <h2 className="header-name">
         <a href="/">
           Sophie Foutz
         </a>

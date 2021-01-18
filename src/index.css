@@ -132,6 +132,30 @@ footer ul li a {
   background-color: rgba(255, 204, 153, .8);
 }
 
+footer {
+  background-color: rgba(255, 204, 153, .8);
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+footer ul {
+  display: flex;
+  font-size: 1.5vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+}
+
+footer ul li {
+  margin: 20px;
+}
+
 
 
 
