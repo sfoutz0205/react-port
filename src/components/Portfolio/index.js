@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from '../Project';
 
-import img1 from '../../assets/images/note-taker.jpg';
+import img1 from '../../assets/images/tek-talk.jpg';
 import img2 from '../../assets/images/book-search.jpg';
 import img3 from '../../assets/images/budget-tracker.jpg';
 import img4 from '../../assets/images/tech-blog.jpg';
@@ -13,8 +13,8 @@ function Portfolio () {
   const projects = [
     {
       id: 1,
-      name: 'Note Taker',
-      liveUrl: 'https://sfoutz-note-taker.herokuapp.com/',
+      name: 'TekTalk',
+      liveUrl: 'https://pure-springs-79722.herokuapp.com/',
       gitUrl: 'https://github.com/sfoutz0205/note-taker',
       style: {
         backgroundImage: "url( " + img1 + ")"
