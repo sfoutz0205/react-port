@@ -15,7 +15,7 @@ function Portfolio () {
       id: 1,
       name: 'TekTalk',
       liveUrl: 'https://pure-springs-79722.herokuapp.com/',
-      gitUrl: 'https://github.com/sfoutz0205/note-taker',
+      gitUrl: 'https://github.com/sfoutz0205/TekTalk',
       style: {
         backgroundImage: "url( " + img1 + ")"
       }
@@ -23,7 +23,7 @@ function Portfolio () {
     {
       id: 2,
       name: 'Book Search',
-      liveUrl: 'https://guarded-bayou-27523.herokuapp.com/',
+      liveUrl: 'https://guarded-bayou-27523.herokuapp.com/`',
       gitUrl: 'https://github.com/sfoutz0205/book-search',
       style: {
         backgroundImage: "url( " + img2 + ")"
